@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <title>Memory</title>
+</head>
+<body>
+    <!-- the grid class on which the field elements will be generated -->
+    <div class="grid"></div>
+    <!-- A simple section on which the attempts of the user will be updated -->
+    <div id="attemptDisplay" class="attempts">
+        <p><span>Attempts:</span><span id="attempts"></span></p>
+    </div>
+    <!-- A message will be generated here if the customers finds all the field-pairs -->
+    <div id="winDiv"></div>
+    <!-- Button to reset/ get back to index.html-->
+    <div class="button" id="reset">
+        <a href="index.html"><button>Reset!</button></a>
+    </div>
+
+    <script src="scripts/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Memory</title>
+</head>
+<body>
+    <!-- heading and a simple form to get the amount of playing fields.
+    basic html validation has been applied to the form-->
+    <h1>COLOR MEMORY</h1>
+    <!-- The form will get the game.html providing the form values (?amount=value) in the url-->
+    <form action="game.html" method="GET">
+        <h2>How To?</h2>
+        <p>Enter an even number from <b>4 to 20</b>, and click "Generate Playfield".</p>
+        <!-- label and input for the amount of fields-->
+        <label for="amount">Amount of cards:</labael>
+        <input id="amount" name="amount" type="number" required min="4" max="20" step="2">
+        <br>
+        <input class="button" type="submit" value="Generate Playfield!">
+    </form>
+</body>
+</html>

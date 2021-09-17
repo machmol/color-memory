@@ -1,0 +1,31 @@
+form {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+label, #amount {
+    font-size: 2em;
+}
+
+#amount {
+    max-width: 8rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.button {
+    padding: 1%;
+    margin: 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
